@@ -161,7 +161,7 @@ def save_results_to_csv(results, output_file):
     logger.info(f"Results saved to {output_file}")
 
 # Example usage
-urls = read_urls('urls1.txt')
+urls = read_urls('urls.txt')
 total_urls = len(urls)
 
 # Using ThreadPoolExecutor to handle multiple URLs concurrently
